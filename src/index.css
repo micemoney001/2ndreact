@@ -1,0 +1,39 @@
+.neww{
+    background-color: black;
+    color: yellow;
+    width: fit-content;
+    padding: 30px;
+    margin: auto;
+}
+
+.ioio{
+    padding: 10px 50px;
+    border: none;
+    background-color: yellow;
+    margin-left: 35px;
+}
+
+.bt{
+    margin-top: 5px;
+    padding: 10px 65px;
+}
+.bt2{
+    margin-left: 4px;
+    padding: 5px 15px;
+}
+.bt3{
+    margin-top: 3px;
+    padding: 5px 15px;
+}
+
+input{
+    outline: none;
+}
+
+.lol{
+    background-color: black;
+    color: yellow;
+    width: fit-content;
+    padding: 20px;
+    margin: auto;
+}
