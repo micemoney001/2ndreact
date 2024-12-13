@@ -1,4 +1,4 @@
-.neww{
+.neww {
     background-color: black;
     color: yellow;
     width: fit-content;
@@ -10,30 +10,128 @@
     padding: 10px 50px;
     border: none;
     background-color: yellow;
-    margin-left: 35px;
+    
 }
 
-.bt{
+.bt {
     margin-top: 5px;
     padding: 10px 65px;
+    margin-left: 75px;
 }
-.bt2{
-    margin-left: 4px;
-    padding: 5px 15px;
-}
-.bt3{
-    margin-top: 3px;
+
+.bt2 {
+    margin-left: 45px;
     padding: 5px 15px;
 }
 
-input{
+.bt3 {
+    margin-top: 3px;
+    margin-left: 45px;
+    padding: 5px 15px;
+}
+
+input {
     outline: none;
 }
 
-.lol{
+.lol {
     background-color: black;
     color: yellow;
     width: fit-content;
     padding: 20px;
+    margin: auto;
+}
+
+.ojo {
+    background-color: lawngreen;
+    text-align: center;
+    padding: 20px;
+}
+
+.ist {
+    justify-content: space-between;
+    margin: 0px auto;
+    padding: 10px;
+    display: flex;
+}
+
+.koko {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 90;
+    width: 300px;
+
+    padding: 10px;
+}
+
+.ioio {
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 90;
+    width: 300px;
+
+    padding: 10px;
+}
+
+.popo {
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 90;
+    width: 300px;
+
+    padding: 10px;
+
+}
+
+.bobo {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
+
+.ingeneral{
+    background-color: blue;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.dark{
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:white;
+    box-shadow: inset 0px 0px 19px white;
+}
+.light{
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color:black;
+    box-shadow: inset 0px 0px 19px black;
+}
+.ku{
+    background-color: blueviolet;
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 20px 25px;
+}
+.img{
+    width: 25%;
+    height: 20%;
+    border-radius: 50px;
     margin: auto;
 }
