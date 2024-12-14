@@ -123,15 +123,45 @@ input {
     box-shadow: inset 0px 0px 19px black;
 }
 .ku{
-    background-color: blueviolet;
+    /* width: 900px; */
     display: flex;
     color: white;
+}
+.ma{
+    width: 120px;
     text-align: center;
-    padding: 20px 25px;
+    margin: 20px;
+    background-color: red;
+    padding: 20px 30px;
 }
 .img{
     width: 25%;
     height: 20%;
     border-radius: 50px;
     margin: auto;
+}
+.uouo{
+    display: flex;
+    
+
+}
+.kuku{
+    margin: 10px;
+    border: 2px;
+    box-shadow: inset 0px 0px 10px grey;
+    padding: 10px;
+}
+ul{
+    list-style-type: none;
+}
+.last{
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    ;
+}
+.lala{
+    display: flex;
+    justify-content: space-between;
 }

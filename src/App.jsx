@@ -6,6 +6,7 @@ import Conditionalstatement from './Conditionalstatement'
 import Tenaryoperatop from './Tenaryoperatop'
 import Stock from './Stock'
 import Arrayassignment from './Arrayassignment'
+import Crudassignment from './crudassignment'
 
 
 function App() {
@@ -50,6 +51,8 @@ function App() {
 
       <Stock/>
       <Arrayassignment/>
+      <br /><br />
+      <Crudassignment/>
     </>
   )
 }
