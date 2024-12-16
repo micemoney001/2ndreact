@@ -32,7 +32,6 @@ const Crudassignment = () => {
 
     // const [NewList, setNewListt] = useState(ListOfName)
     // const [newName, setNewName] = useState("")
-
     const [newcourseData, setNewcourse] = useState(allp)
 
 
