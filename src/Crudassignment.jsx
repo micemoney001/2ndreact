@@ -27,26 +27,26 @@ const Crudassignment = () => {
             "location": "London, UK"
         }
     ]
-    const ListOfName = ["LIST OF NAMES", "Mayor", "Fisayo", "Kehinde", "Bolanle"]
-    const [text, setText] = useState("")
+    // const ListOfName = ["LIST OF NAMES", "Mayor", "Fisayo", "Kehinde", "Bolanle"]
+    // const [text, setText] = useState("")
 
-    const [NewList, setNewListt] = useState(ListOfName)
-    const [newName, setNewName] = useState("")
+    // const [NewList, setNewListt] = useState(ListOfName)
+    // const [newName, setNewName] = useState("")
 
     const [newcourseData, setNewcourse] = useState(allp)
 
 
-    const handlenewName = () => {
-        if (newName !== "") {
-            setNewListt([...NewList, newName])
-            setNewName("")
-        }
+    // const handlenewName = () => {
+    //     if (newName !== "") {
+    //         setNewListt([...NewList, newName])
+    //         setNewName("")
+    //     }
         
-    }
-    const deletebtn = (kilo) => {
-        const newlistAfterDel = NewList.filter((item, major) => major !== kilo)
-        setNewListt(newlistAfterDel)
-    }
+    // }
+    // const deletebtn = (kilo) => {
+    //     const newlistAfterDel = NewList.filter((item, major) => major !== kilo)
+    //     setNewListt(newlistAfterDel)
+    // }
     const deletecrude = (miofo) => {
         const newdelete = newcourseData.filter((iuk, mafo) => mafo !== miofo)
         setNewcourse(newdelete)
@@ -54,7 +54,7 @@ const Crudassignment = () => {
 
     return (
         <div >
-            <ul>
+            {/* <ul>
                 {
                     NewList.map((eachName, mayor) => (
                         <li key={mayor}>{eachName}
@@ -62,7 +62,7 @@ const Crudassignment = () => {
                         </li>
                     ))
                 }
-            </ul>
+            </ul> */}
             <ul className='uouo'>
                 {
                     newcourseData.map((loi, koko) => (
