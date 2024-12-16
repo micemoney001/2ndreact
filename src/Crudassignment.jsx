@@ -40,7 +40,7 @@ const Crudassignment = () => {
     //         setNewListt([...NewList, newName])
     //         setNewName("")
     //     }
-        
+
     // }
     // const deletebtn = (kilo) => {
     //     const newlistAfterDel = NewList.filter((item, major) => major !== kilo)
