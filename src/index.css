@@ -92,7 +92,7 @@ input {
     padding: 5px 10px;
 }
 
-.ingeneral{
+/* .ingeneral{
     background-color: blue;
     padding: 30px 40px;
     display: flex;
@@ -100,10 +100,10 @@ input {
     justify-content: center;
     align-items: center;
     
-}
+} */
 
 .dark{
-    padding: 30px 40px;
+    padding: 90px 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -113,7 +113,7 @@ input {
     box-shadow: inset 0px 0px 19px white;
 }
 .light{
-    padding: 30px 40px;
+    padding: 90px 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,14 +125,19 @@ input {
 .ku{
     /* width: 900px; */
     display: flex;
-    color: white;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
+
 .ma{
-    width: 120px;
+    width: 300px; 
     text-align: center;
     margin: 20px;
     background-color: red;
     padding: 20px 30px;
+    /* padding: 0px; */
+
 }
 .img{
     width: 25%;
@@ -141,27 +146,91 @@ input {
     margin: auto;
 }
 .uouo{
+    padding: 0px;
     display: flex;
-    
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 
+}
+.uouo li{
+    background: blue;
+    color: white;
+    width: 300px;
 }
 .kuku{
     margin: 10px;
     border: 2px;
-    box-shadow: inset 0px 0px 10px grey;
-    padding: 10px;
+    border-radius: 10px;
+    box-shadow:  0px 0px 20px grey;
+    padding: 20px 15px;
 }
 ul{
     list-style-type: none;
+    /* display: flex;
+    flex-direction: column; */
 }
 .last{
-    background-color: purple;
+    background-color: red;
+    box-shadow:  0px 0px 20px red;
+    border-radius: 9px;
     border: none;
     color: white;
-    padding: 10px 15px;
+    padding: 10px 25px;
     ;
 }
 .lala{
     display: flex;
     justify-content: space-between;
+}
+.olopa{
+    background-color: green;
+    padding: 30p;
+}
+.okobo{
+    background-color: red;
+    margin: auto;
+    border-radius: 10px;
+    padding: 25px 20px;
+    color: white;
+}
+.okobo input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px groove blue;
+    background: transparent;
+    outline: none;
+    color: white;
+
+}
+nav{
+    background-color: yellow;
+    display: flex;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    margin-left: 20px;
+}
+.yoyo{
+    text-decoration: none;
+}
+.home{
+    background-color: cadetblue;
+    color: white;
+}
+.nbnm{
+    background-color: palevioletred;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.qq{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-bottom: 2px groove blueviolet;
 }
