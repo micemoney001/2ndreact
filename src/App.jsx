@@ -1,7 +1,6 @@
 import React from 'react'
 import './App.css'
-import Tenaryoperatop from './Tenaryoperatop'
-import Crudassignment from './crudassignment'
+import Crudassignment from './Crudassignment'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import About from './About'
 import Home from './Home';
@@ -15,7 +14,7 @@ function App() {
       <Router>
         <nav>
           <ul>
-          <li><Link className='yoyo' to="/">HOME</Link></li>
+            <li><Link className='yoyo' to="/">HOME</Link></li>
             <li><Link className='yoyo' to='/array'>ABOUT</Link></li>
             <li> <Link className='yoyo' to="/body">JOB</Link> </li>
           </ul>
@@ -28,8 +27,6 @@ function App() {
         </Routes>
       </Router>
 
-      
-      {/* <Crudassignment /> */}
 
       <br /><br /><br />
     </>
